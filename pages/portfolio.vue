@@ -21,7 +21,7 @@
           <li class="nav-item">
             <nuxt-link to="blog" class="nav-link">BLOG</nuxt-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <nuxt-link to="portfolio" class="nav-link">PORTFOLIO</nuxt-link>
           </li>
           <li class="nav-item">

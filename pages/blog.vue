@@ -18,7 +18,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
+          <li class="nav-item active">
             <nuxt-link to="blog" class="nav-link">BLOG</nuxt-link>
           </li>
           <li class="nav-item">

@@ -3,7 +3,7 @@
     <header>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="/">Shift 4 Logo</a>
+    <a href="/" class="navbar-brand">Shift 4 Logo</a>
     <div class="container-fluid">
       <button
         class="navbar-toggler"
@@ -27,7 +27,7 @@
           <li class="nav-item">
             <nuxt-link to="service" class="nav-link">SERVICE</nuxt-link>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <nuxt-link to="wiki" class="nav-link">WIKI</nuxt-link>
           </li>
         </ul>
