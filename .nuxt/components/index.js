@@ -1,3 +1,5 @@
+export { default as MarkdownReader } from '../../components/markdownReader.vue'
+
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
   if (!options || !options.functional) {

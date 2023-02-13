@@ -3,30 +3,35 @@
     "name": "blog",
     "path": "/blog",
     "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/blog.vue",
-    "chunkName": "pages/blog"
+    "chunkName": "pages/blog",
+    "_name": "_cd0f7a74"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
     "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/portfolio.vue",
-    "chunkName": "pages/portfolio"
+    "chunkName": "pages/portfolio",
+    "_name": "_d6b22c58"
   },
   {
     "name": "service",
     "path": "/service",
     "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/service.vue",
-    "chunkName": "pages/service"
+    "chunkName": "pages/service",
+    "_name": "_ec8bcc7e"
   },
   {
     "name": "wiki",
     "path": "/wiki",
     "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/wiki.vue",
-    "chunkName": "pages/wiki"
+    "chunkName": "pages/wiki",
+    "_name": "_79870bd4"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_2dd5525e"
   }
 ]
