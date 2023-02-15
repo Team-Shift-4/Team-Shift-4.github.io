@@ -4,7 +4,7 @@
       <div class="gnb">
         <div class="gnb-wrapper">
           <div class="gnb-logo">
-            <img src="@/static/shift-4-gnb-logo.png" />
+            <span class="logo">shift 4</span>
           </div>
           <div class="gnb-nav">
             <div class="gnb-nav-item">
@@ -33,7 +33,7 @@
   <footer>
     <div class="fnb">
       <div class="fnb-wrapper">
-        <div class="fnb-logo"><img src="@/static/shift-4-gnb-logo.png"/></div>
+        <div class="fnb-logo"><span class="logo">shift 4</span></div>
         <div class="fnb-info">
           Copyright 2023 SHIFT 4 All Rights Reserved.<br/>
           ShifT 4 Team leader : Jungin Kim ｜ Email : 99JunginKim@gmail.com<br/>
@@ -42,46 +42,15 @@
       </div>
     </div>
   </footer>
-    <!--
-  <footer class="bg-light text-center text-lg-start">
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2023 Copyright:
-      <a class="text-dark" href="https://www.shift-4.xyz">Team Shift 4</a>
-    </div>
-  </footer>
-  -->
 </div>
 </template>
-<!--
-  <style scoped>
-  /* Color of the links BEFORE scroll */
-  .navbar-scroll .nav-link,
-  .navbar-scroll .navbar-toggler .fa-bars {
-    color: #fff;
-  }
-  
-  /* Color of the links AFTER scroll */
-  .navbar-scrolled .nav-link,
-  .navbar-scrolled .navbar-toggler .fa-bars {
-    color: #4f4f4f;
-  }
-  
-  /* Color of the navbar AFTER scroll */
-  .navbar-scrolled {
-    background-color: #fff;
-  }
-  
-  /* An optional height of the navbar AFTER scroll */
-  .navbar.navbar-scroll.navbar-scrolled {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  
-  </style>
-  -->
+
 <style scoped>
 @import url("https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css");
-
+@font-face {
+  font-family: 'barcode';
+  src: url('@/static/LibreBarcode39Text-Regular.ttf');
+}
 .app {
   font-family: "NexonLv1Gothic", -apple-system, BlinkMacSystemFont,
     "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", "Malgun Gothic",
@@ -89,8 +58,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.gnb {
+  .gnb {
   position: relative;
   top: 0px;
   left: 0px;
@@ -99,7 +67,10 @@
   margin-bottom: 10px;
   box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3);
 }
-
+.logo{
+  font-size: 50px;
+  font-family: 'barcode';
+}
 .gnb-wrapper {
   position: absolute;
   width: 1100px;
