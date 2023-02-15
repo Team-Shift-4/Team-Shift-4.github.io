@@ -40,7 +40,8 @@
           TEL : 010-7008-0801｜ ADDRESS : 대구광역시 동구 신암로 16길 16
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
     <!--
   <footer class="bg-light text-center text-lg-start">
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -48,7 +49,7 @@
       <a class="text-dark" href="https://www.shift-4.xyz">Team Shift 4</a>
     </div>
   </footer>
-  --></div>
+  -->
 </template>
 <!--
   <style scoped>
