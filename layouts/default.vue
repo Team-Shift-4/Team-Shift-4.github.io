@@ -25,55 +25,19 @@
           </div>
         </div>
       </div>
-      <!--
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="/">Shift 4 LogoQ1</a>
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-mdb-toggle="collapse"
-          data-mdb-target="#navbarExample01"
-          aria-controls="navbarExample01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarExample01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <nuxt-link to="blog" class="nav-link">BLOG</nuxt-link>
-            </li>
-            <li class="nav-item">
-              <nuxt-link to="portfolio" class="nav-link">PORTFOLIO</nuxt-link>
-            </li>
-            <li class="nav-item">
-              <nuxt-link to="service" class="nav-link">SERVICE</nuxt-link>
-            </li>
-            <li class="nav-item">
-              <nuxt-link to="wiki" class="nav-link">WIKI</nuxt-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    --></header>
-    <div>
-      <nuxt />
-    </div>
-
-    <footer>
-      <div class="fnb">
-        <div class="fnb-wrapper">
-          <div class="fnb-logo">
-            <img src="@/static/shift-4-gnb-logo.png" />
-          </div>
-          <div class="fnb-info">
-            Copyright 2023 SHIFT 4 All Rights Reserved.<br />
-            ShifT 4 Team leader : Jungin Kim ｜ Email : 99JunginKim@gmail.com<br />
-            TEL : 010-7008-0801｜ ADDRESS : 대구광역시 동구 신암로 16길 16
-          </div>
+    </header>
+  <div>
+    <nuxt />
+  </div>
+  
+  <footer>
+    <div class="fnb">
+      <div class="fnb-wrapper">
+        <div class="fnb-logo"><img src="@/static/shift-4-gnb-logo.png"/></div>
+        <div class="fnb-info">
+          Copyright 2023 SHIFT 4 All Rights Reserved.<br/>
+          ShifT 4 Team leader : Jungin Kim ｜ Email : 99JunginKim@gmail.com<br/>
+          TEL : 010-7008-0801｜ ADDRESS : 대구광역시 동구 신암로 16길 16
         </div>
       </div>
     </footer>
