@@ -2,36 +2,31 @@
   {
     "name": "blog",
     "path": "/blog",
-    "component": "C:\\\\Users\\\\DJSB\\\\Documents\\\\GitHub\\\\Team-Shift-4.github.io\\\\pages\\\\blog.vue",
-    "chunkName": "pages/blog",
-    "_name": "_1c5e7c52"
+    "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/blog.vue",
+    "chunkName": "pages/blog"
   },
   {
     "name": "portfolio",
     "path": "/portfolio",
-    "component": "C:\\\\Users\\\\DJSB\\\\Documents\\\\GitHub\\\\Team-Shift-4.github.io\\\\pages\\\\portfolio.vue",
-    "chunkName": "pages/portfolio",
-    "_name": "_f06fa53a"
+    "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/portfolio.vue",
+    "chunkName": "pages/portfolio"
   },
   {
     "name": "service",
     "path": "/service",
-    "component": "C:\\\\Users\\\\DJSB\\\\Documents\\\\GitHub\\\\Team-Shift-4.github.io\\\\pages\\\\service.vue",
-    "chunkName": "pages/service",
-    "_name": "_6c24f510"
+    "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/service.vue",
+    "chunkName": "pages/service"
   },
   {
     "name": "wiki",
     "path": "/wiki",
-    "component": "C:\\\\Users\\\\DJSB\\\\Documents\\\\GitHub\\\\Team-Shift-4.github.io\\\\pages\\\\wiki.vue",
-    "chunkName": "pages/wiki",
-    "_name": "_5c40ea36"
+    "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/wiki.vue",
+    "chunkName": "pages/wiki"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\DJSB\\\\Documents\\\\GitHub\\\\Team-Shift-4.github.io\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_3ee69526"
+    "component": "/Users/jik/Documents/GitHub/Team-Shift-4.github.io/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]

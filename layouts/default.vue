@@ -5,13 +5,13 @@
         <div class="gnb-wrapper">
           <div class="gnb-logo"><img src="@/static/shift-4-gnb-logo.png"/></div>
           <div class="gnb-nav">
-            <div class="gnb-nav-item">blog</div>
+            <div class="gnb-nav-item"><nuxt-link to="blog">blog</nuxt-link></div>
             <div class="gnb-nav-item">|</div>
-            <div class="gnb-nav-item">portfolio</div>
+            <div class="gnb-nav-item"><nuxt-link to="portfolio">portfolio</nuxt-link></div>
             <div class="gnb-nav-item">|</div>
-            <div class="gnb-nav-item">service</div>
+            <div class="gnb-nav-item"><nuxt-link to="service">service</nuxt-link></div>
             <div class="gnb-nav-item">|</div>
-            <div class="gnb-nav-item">wiki</div>
+            <div class="gnb-nav-item"><nuxt-link to="wiki">wiki</nuxt-link></div>
           </div>
         </div>
       </div>
