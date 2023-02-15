@@ -1,4 +1,4 @@
-# Team-Shift-4.github.io
+# shift-4.xyz
 
 ## Build Setup
 

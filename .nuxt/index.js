@@ -12,13 +12,13 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_9ac2d450 from 'nuxt_plugin_plugin_9ac2d450' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_pluginclient_0add6ae4 from 'nuxt_plugin_pluginclient_0add6ae4' // Source: .\\content\\plugin.client.js (mode: 'client')
-import nuxt_plugin_pluginserver_604abc16 from 'nuxt_plugin_pluginserver_604abc16' // Source: .\\content\\plugin.server.js (mode: 'server')
-import nuxt_plugin_workbox_f22a1f52 from 'nuxt_plugin_workbox_f22a1f52' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_15279dd7 from 'nuxt_plugin_metaplugin_15279dd7' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_19cf434b from 'nuxt_plugin_iconplugin_19cf434b' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
-import nuxt_plugin_axios_06660dfb from 'nuxt_plugin_axios_06660dfb' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_cd9b192c from 'nuxt_plugin_plugin_cd9b192c' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_pluginclient_181879e6 from 'nuxt_plugin_pluginclient_181879e6' // Source: ./content/plugin.client.js (mode: 'client')
+import nuxt_plugin_pluginserver_7dd1eb6e from 'nuxt_plugin_pluginserver_7dd1eb6e' // Source: ./content/plugin.server.js (mode: 'server')
+import nuxt_plugin_workbox_761bfac8 from 'nuxt_plugin_workbox_761bfac8' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_56dcedaf from 'nuxt_plugin_metaplugin_56dcedaf' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_5b849323 from 'nuxt_plugin_iconplugin_5b849323' // Source: ./pwa/icon.plugin.js (mode: 'all')
+import nuxt_plugin_axios_1db22500 from 'nuxt_plugin_axios_1db22500' // Source: ./axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -69,7 +69,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Team-Shift-4.github.io","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"shift-4.xyz","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -184,32 +184,32 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_9ac2d450 === 'function') {
-    await nuxt_plugin_plugin_9ac2d450(app.context, inject)
+  if (typeof nuxt_plugin_plugin_cd9b192c === 'function') {
+    await nuxt_plugin_plugin_cd9b192c(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_pluginclient_0add6ae4 === 'function') {
-    await nuxt_plugin_pluginclient_0add6ae4(app.context, inject)
+  if (process.client && typeof nuxt_plugin_pluginclient_181879e6 === 'function') {
+    await nuxt_plugin_pluginclient_181879e6(app.context, inject)
   }
 
-  if (process.server && typeof nuxt_plugin_pluginserver_604abc16 === 'function') {
-    await nuxt_plugin_pluginserver_604abc16(app.context, inject)
+  if (process.server && typeof nuxt_plugin_pluginserver_7dd1eb6e === 'function') {
+    await nuxt_plugin_pluginserver_7dd1eb6e(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_f22a1f52 === 'function') {
-    await nuxt_plugin_workbox_f22a1f52(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_761bfac8 === 'function') {
+    await nuxt_plugin_workbox_761bfac8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_15279dd7 === 'function') {
-    await nuxt_plugin_metaplugin_15279dd7(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_56dcedaf === 'function') {
+    await nuxt_plugin_metaplugin_56dcedaf(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_19cf434b === 'function') {
-    await nuxt_plugin_iconplugin_19cf434b(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_5b849323 === 'function') {
+    await nuxt_plugin_iconplugin_5b849323(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_06660dfb === 'function') {
-    await nuxt_plugin_axios_06660dfb(app.context, inject)
+  if (typeof nuxt_plugin_axios_1db22500 === 'function') {
+    await nuxt_plugin_axios_1db22500(app.context, inject)
   }
 
   // Lock enablePreview in context

@@ -1,5 +1,5 @@
 {
-  "title": "Team-Shift-4.github.io",
+  "title": "shift-4.xyz",
   "meta": [
     {
       "hid": "charset",
@@ -18,7 +18,12 @@
     {
       "hid": "apple-mobile-web-app-title",
       "name": "apple-mobile-web-app-title",
-      "content": "Team-Shift-4.github.io"
+      "content": "shift-4.xyz"
+    },
+    {
+      "hid": "description",
+      "name": "description",
+      "content": "## Build Setup"
     },
     {
       "hid": "og:type",
@@ -30,13 +35,19 @@
       "hid": "og:title",
       "name": "og:title",
       "property": "og:title",
-      "content": "Team-Shift-4.github.io"
+      "content": "shift-4.xyz"
     },
     {
       "hid": "og:site_name",
       "name": "og:site_name",
       "property": "og:site_name",
-      "content": "Team-Shift-4.github.io"
+      "content": "shift-4.xyz"
+    },
+    {
+      "hid": "og:description",
+      "name": "og:description",
+      "property": "og:description",
+      "content": "## Build Setup"
     }
   ],
   "link": [
@@ -53,7 +64,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.8d9014a9.json",
+      "href": "/_nuxt/manifest.d3b46e2b.json",
       "hid": "manifest"
     }
   ],
