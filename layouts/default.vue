@@ -1,9 +1,23 @@
 <template>
-    <div>
-      <header>
-    <!-- Navbar -->
+  <div>
+    <header>
+      <div class="gnb">
+        <div class="gnb-wrapper">
+          <div class="gnb-logo"><img src="@/static/shift-4-gnb-logo.png"/></div>
+          <div class="gnb-nav">
+            <div class="gnb-nav-item">blog</div>
+            <div class="gnb-nav-item">|</div>
+            <div class="gnb-nav-item">portfolio</div>
+            <div class="gnb-nav-item">|</div>
+            <div class="gnb-nav-item">service</div>
+            <div class="gnb-nav-item">|</div>
+            <div class="gnb-nav-item">wiki</div>
+          </div>
+        </div>
+      </div>
+    <!--
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <a class="navbar-brand" href="/">Shift 4 Logo</a>
+      <a class="navbar-brand" href="/">Shift 4 LogoQ1</a>
       <div class="container-fluid">
         <button
           class="navbar-toggler"
@@ -34,8 +48,8 @@
         </div>
       </div>
     </nav>
-    <!-- Navbar -->
-  </header>
+    -->
+    </header>
   <div>
     <nuxt />
   </div>
@@ -50,6 +64,7 @@
   </footer>
   </div>
   </template>
+  <!--
   <style scoped>
   /* Color of the links BEFORE scroll */
   .navbar-scroll .nav-link,
@@ -74,6 +89,59 @@
     padding-bottom: 5px;
   }
   
+  </style>
+  -->
+  <style scoped>
+  @import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+  .gnb {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.3)
+  }
+
+  .gnb-wrapper {
+    position: absolute;
+    width: 1100px;
+    height: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .gnb-logo {
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+  }
+
+  .gnb-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .gnb-nav {
+    display: inline-block;
+    width: 800px;
+    height: 80px;
+  }
+
+  
+
+  .gnb-nav-item {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 42px;
+    font-family: 'NexonLv1Gothic';
+  }
+
   </style>
   <script>
   export default {
