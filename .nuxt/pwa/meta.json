@@ -21,11 +21,6 @@
       "content": "Team-Shift-4.github.io"
     },
     {
-      "hid": "description",
-      "name": "description",
-      "content": "## Build Setup"
-    },
-    {
       "hid": "og:type",
       "name": "og:type",
       "property": "og:type",
@@ -42,12 +37,6 @@
       "name": "og:site_name",
       "property": "og:site_name",
       "content": "Team-Shift-4.github.io"
-    },
-    {
-      "hid": "og:description",
-      "name": "og:description",
-      "property": "og:description",
-      "content": "## Build Setup"
     }
   ],
   "link": [
@@ -64,7 +53,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.a7f7dd04.json",
+      "href": "/_nuxt/manifest.8d9014a9.json",
       "hid": "manifest"
     }
   ],
