@@ -1,15 +1,10 @@
 <template>
+    <Tutorial />
 </template>
   
 <script>
 export default {
-    name: 'WikiPage',
+    name: 'IndexPage',
 }
 </script>
-<style>
-*{
-    margin: 0 auto;
-    padding: 0 auto;
-}
-</style>
   

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="logo_big relative flex items-top justify-center min-h-screen bg-gray-100 sm:items-center sm:pt-0">
+    <div class="logo_big">
       <div class="logo_stack" stype="--stacks: 3;">
         <span style="--index: 0;">shift 4</span>
         <span style="--index: 1;">shift 4</span>
@@ -15,11 +15,7 @@ export default {
   name: 'IndexPage',
 }
 </script>
-<style>
-*{
-  padding: 0;
-  margin: 0;
-}
+<style scoped>
 @font-face {
   font-family: 'barcode';
   src: url('@/static/LibreBarcode39Text-Regular.ttf');

@@ -1,17 +1,10 @@
 <template>
-    <div>
-        asdfaadsf
-    </div>
+    <Tutorial />
 </template>
   
 <script>
 export default {
-    name: 'BlogPage',
+    name: 'IndexPage',
 }
 </script>
-<style>
-*{
-    margin: 0 auto;
-    padding: 0 auto;
-}
-</style>
+  
