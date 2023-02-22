@@ -1,10 +1,14 @@
 <template>
-    <Tutorial />
 </template>
   
 <script>
 export default {
-    name: 'IndexPage',
+    name: 'ServicePage',
 }
 </script>
-  
+<style>
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+</style>
